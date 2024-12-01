@@ -1,24 +1,21 @@
 {
 
-"rewrites":[
-        {"Source":"/(**)","destination":"/"}
-    ],
-
-
-    "version": 2,
-    "builds": [
+"routes" :[
       {
-        "src": "package.json",
-        "use": "@vercel/node"
-      }
-    ],
-    "routes": [
+        "src": "/",
+        "use":"/"
+      },
+    
+   
       {
-        "src": "/(.*)",
+        "src": "/test",
         "dest": "/"
       }
     ]
+
+
 }
+
  
 
 
