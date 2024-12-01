@@ -11,7 +11,7 @@ export default {
   theme: {
   	extend: {
 		transitionDuration: {
-			'900': '0.9s'
+			duration: '0.9s'
 		  },
   		colors: {
   			background: 'hsl(var(--background))',
